@@ -1,0 +1,159 @@
+.btn{
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #3bc5dd;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 9px;
+    cursor: pointer;
+
+}
+.btn-delete{
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #cf2424;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 9px;
+    cursor: pointer;
+
+}
+.btn-edit{
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #94d341;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 9px;
+    cursor: pointer;
+
+}
+input{
+    width: 50%;
+    padding: 7px;
+    border-color: rgb(0, 0, 0);
+    fill: none;
+    outline: none;
+    border-width: 0.1ch;
+    font-size: 14px;
+    background-color: none;
+    margin-top: 5px;
+}
+img{
+    width: 80%;
+}
+.Post__delete{
+    border: none;
+    background: none;
+    padding: 0;
+    float: right;
+    cursor: pointer;
+}
+.post_card{
+    background-color: rgb(144, 241, 247);
+    padding: 10px;
+    text-align: left;
+    width: 80%;   
+}
+.card-detail{
+    background: rgb(162,226,246);
+    background: linear-gradient(216deg, rgba(162,226,246,1) 0%, rgba(223,156,156,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 6px;
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+.card__input{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.img{
+    width: 20%;
+    border-radius: 4px;
+}
+
+.navbar{
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    background: rgb(131,58,180);
+    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+    font-size: 2em;
+    text-align: left;
+    justify-items: center;
+    padding-top: 1em;
+    position: fixed;
+    z-index: 1;
+}
+.imglogo{
+    width: 30px;
+}
+.imglogo-collap{
+    width: 30px;
+    transform: scaleX(-1);
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  /* Preferred icon size */
+    display: inline-block;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    align-items: center !important;
+    flex-direction: row;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.card{
+      background-color: #fff;
+      border-radius: 6px;
+      color: palevioletred;
+      margin: 2%;
+}
+.card-column{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+}
+.input__card{
+    width: 100%;
+    justify-content: center;
+    padding: 1%;
+}
+.title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+}
+.format-text{
+    font-size: 12px;
+    color: red;
+    font-weight: 300;
+}
